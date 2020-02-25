@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+#*/5 * * * * /home/ec2-user/iot/iot.py 1
+#*/5 * * * * /home/ec2-user/iot/iot.py 2
+#0 * * * * /home/ec2-user/iot/iot.py 3
+
 # -*- coding: utf-8 -*-
 import sys
 import requests
